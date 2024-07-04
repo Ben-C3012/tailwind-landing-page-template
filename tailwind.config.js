@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        whiteBack: "#fffff",
+        textBlue: "#111929"
+      },
+
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         mono: ["Roboto Mono", "monospace"],

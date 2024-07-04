@@ -9,6 +9,15 @@ import Logo07 from "@/public/images/logo-07.svg";
 import Logo08 from "@/public/images/logo-08.svg";
 import Logo09 from "@/public/images/logo-09.svg";
 
+import torLogo from '@/public/images/torlogo.svg';
+import duckDuckGoLogo from '@/public/images/duckduckgo-icon.svg';
+import windowsDefenderLogo from '@/public/images/Windows-Defender-logo.svg';
+import facebookLogo from '@/public/images/Facebook-logo.svg';
+import instagramLogo from '@/public/images/instagram-logo.svg';
+import securityCameraLogo from '@/public/images/security-camera.png';
+import birdLogo from '@/public/images/bird.png';
+import birdLogo2 from '@/public/images/bird2.png';
+
 export default function BusinessCategories() {
   return (
     <section>
@@ -195,9 +204,9 @@ export default function BusinessCategories() {
                     <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                       <Image
                         className="relative"
-                        src={Logo02}
-                        width={23}
-                        height={22}
+                        src={torLogo}
+                        width={24}
+                        height={24}
                         alt="Logo 02"
                       />
                     </div>
@@ -221,9 +230,9 @@ export default function BusinessCategories() {
                     <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                       <Image
                         className="relative"
-                        src={Logo04}
-                        width={24}
-                        height={22}
+                        src={duckDuckGoLogo}
+                        width={25}
+                        height={25}
                         alt="Logo 04"
                       />
                     </div>
@@ -234,7 +243,7 @@ export default function BusinessCategories() {
                     <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                       <Image
                         className="relative"
-                        src={Logo05}
+                        src={instagramLogo}
                         width={25}
                         height={25}
                         alt="Logo 05"
@@ -247,7 +256,7 @@ export default function BusinessCategories() {
                     <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                       <Image
                         className="relative"
-                        src={Logo06}
+                        src={facebookLogo}
                         width={20}
                         height={18}
                         alt="Logo 06"
@@ -260,7 +269,7 @@ export default function BusinessCategories() {
                     <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                       <Image
                         className="relative"
-                        src={Logo07}
+                        src={windowsDefenderLogo}
                         width={25}
                         height={25}
                         alt="Logo 07"
@@ -273,9 +282,9 @@ export default function BusinessCategories() {
                     <div className="flex h-12 w-12 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
                       <Image
                         className="relative"
-                        src={Logo08}
-                        width={20}
-                        height={20}
+                        src={birdLogo2}
+                        width={23}
+                        height={23}
                         alt="Logo 08"
                       />
                     </div>
@@ -286,9 +295,9 @@ export default function BusinessCategories() {
                     <div className="flex h-12 w-12 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
                       <Image
                         className="relative"
-                        src={Logo09}
-                        width={21}
-                        height={13}
+                        src={securityCameraLogo}
+                        width={22}
+                        height={14}
                         alt="Logo 09"
                       />
                     </div>

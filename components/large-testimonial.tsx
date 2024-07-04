@@ -1,5 +1,7 @@
 import Image from "next/image";
 import TestimonialImg from "@/public/images/large-testimonial.jpg";
+import AvatarImage from '@/public/images/avatar-testimonial.jpeg';
+import Accordion from "./accordion";
 
 export default function LargeTestimonial() {
   return (
@@ -23,28 +25,28 @@ export default function LargeTestimonial() {
               </svg>
               <Image
                 className="rounded-full"
-                src={TestimonialImg}
-                width={48}
-                height={48}
+                src={AvatarImage}
+                width={80}
+                height={80}
                 alt="Large testimonial"
               />
             </div>
-            <p className="text-2xl font-bold text-gray-900">
-              “Simple has simplified my life in more ways than one. From
-              managing my sites to{" "}
-              <em className="italic text-gray-500">keeping track of tasks</em>,
-              it's become my go-to tool for everything.”
+            <p dir="rtl" className="text-2xl font-bold text-gray-900 ">
+              המטרה שלנו היא להרחיב את המודעות, הסכנות וההזדמנויות{" "}
+              <em dir="rtl" className="italic text-blue-500 ">במרחב הדיגיטלי</em>,
+             כדי שנוכל להיות בטוחים ואחראים יותר.
             </p>
             <div className="text-sm font-medium text-gray-500">
-              <span className="text-gray-700">Mary Sullivan</span>{" "}
+              <span dir="rt;" className="text-gray-700">בן </span>{" "}
               <span className="text-gray-400">/</span>{" "}
-              <a className="text-blue-500" href="#0">
-                CTO at Microsoft
+              <a className="text-blue-500 font-bold" href="#0">
+               מדריך ראשי
               </a>
             </div>
           </div>
         </div>
       </div>
     </section>
+
   );
 }
