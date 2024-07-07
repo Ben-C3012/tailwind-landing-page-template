@@ -17,7 +17,7 @@ export default function DefaultLayout({
     AOS.init({
       once: true,
       disable: "phone",
-      duration: 700,
+      duration: 1200,
       easing: "ease-out-cubic",
     });
   });

@@ -6,6 +6,7 @@ import PlanetTagImg02 from "@/public/images/planet-tag-02.png";
 import PlanetTagImg03 from "@/public/images/planet-tag-03.png";
 import PlanetTagImg04 from "@/public/images/planet-tag-04.png";
 
+
 export default function FeaturesPlanet() {
   return (
     <section id="features-planet" className="relative before:absolute before:inset-0 before:-z-20 before:bg-gray-900">
@@ -72,7 +73,7 @@ export default function FeaturesPlanet() {
           </div>
           {/* Grid */}
           <div className="grid  overflow-hidden sm:grid-cols-2 lg:grid-cols-3 [&>*]:relative [&>*]:p-6 [&>*]:before:absolute [&>*]:before:bg-gray-800 [&>*]:before:[block-size:100vh] [&>*]:before:[inline-size:1px] [&>*]:before:[inset-block-start:0] [&>*]:before:[inset-inline-start:-1px] [&>*]:after:absolute [&>*]:after:bg-gray-800 [&>*]:after:[block-size:1px] [&>*]:after:[inline-size:100vw] [&>*]:after:[inset-block-start:-1px] [&>*]:after:[inset-inline-start:0] md:[&>*]:p-10">
-            <article>
+            <article data-aos="text-rise-up">
               <h3 dir="rtl" className="mb-2  flex items-center space-x-2 font-medium text-gray-200">
                 {/* <svg
                   className="fill-blue-500"
@@ -97,10 +98,10 @@ export default function FeaturesPlanet() {
                 <span dir="rtl">הדרכות סייבר ואבטחת מידע</span>
               </h3>
               <p dir="rtl" className="text-[15px] text-gray-400">
-הדרכות המקנות כלים ומבוא לעולם הסייבר ואבטחת המידע. למדו להגן על עצמכם מפני הונאות.
+                הדרכות המקנות כלים ומבוא לעולם הסייבר ואבטחת המידע. למדו להגן על עצמכם מפני הונאות.
               </p>
             </article>
-            <article>
+            <article data-aos="text-rise-up">
               <h3 dir="rtl" className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 {/* <svg
                   className="fill-blue-500"
@@ -138,7 +139,7 @@ export default function FeaturesPlanet() {
                 הדרכות על הסיכונים וההשפעות של רשתות חברתיות על צעירים ומבוגרים.
               </p>
             </article>
-            <article>
+            <article data-aos="text-rise-up">
 
               <h3 dir="rtl" className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 {/* <svg
@@ -164,7 +165,7 @@ export default function FeaturesPlanet() {
                 הדרכות על פרטיות ואנונימיות ברשת וברשתות חברתיות.
               </p>
             </article>
-            <article>
+            <article data-aos="text-drop-down">
               <h3 dir="rtl" className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
                   className="fill-blue-500"
@@ -182,7 +183,7 @@ export default function FeaturesPlanet() {
                 במקום להוציא עשרות אלפי שקלים על קורסים, תוכלו בקלות להבין האם אתם אוהבים את התחום
               </p>
             </article>
-            <article>
+            <article data-aos="text-drop-down">
               <h3 dir="rtl" className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 {/* <svg
                   className="fill-blue-500"
@@ -206,7 +207,7 @@ export default function FeaturesPlanet() {
                 אמצעי זהירות ובטיחות ברשת והגנה על פרטיות. הונאות, פישינג, וירוסים ועוד.
               </p>
             </article>
-            <article>
+            <article data-aos="text-drop-down">
               <h3 dir="rtl" className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
 
                 <svg
@@ -227,13 +228,13 @@ export default function FeaturesPlanet() {
                     </g>
                   </g>
                 </svg>
-            
-              &nbsp;
+
+                &nbsp;
 
                 <span>השפעת  AI על העולם</span>
               </h3>
               <p dir="rtl" className="text-[15px] text-gray-400">
-              הדרכות על השפעת AI על העולם והשימוש בה במגוון תחומים.
+                הדרכות על השפעת AI על העולם והשימוש בה במגוון תחומים.
               </p>
             </article>
           </div>

@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Logo from "./logo";
 import Image from "next/image";
+import BlackCyberDreamLogo from '@/public/images/BlackCyberDreamLogo.png';
+
 
 export default function Footer({ border = false }: { border?: boolean }) {
   return (
@@ -16,14 +18,17 @@ export default function Footer({ border = false }: { border?: boolean }) {
           <div className="space-y-2 sm:col-span-12 lg:col-span-4">
             <div>
               {/* <Logo /> */}
-              <Logo/>
+              {/* <Logo/> */}
+              <div className="">
+                {/* <Image width={100} height={100} src={BlackCyberDreamLogo} alt="CyberDream" /> */}
+              </div>
             </div>
             <div className="text-sm text-gray-600">
               &copy; CyberDreamedu.com - All rights reserved.
             </div>
           </div>
 
-         
+
           {/* 2nd block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
             {/* <h3 className="text-sm font-medium">Product</h3> */}
@@ -201,10 +206,10 @@ export default function Footer({ border = false }: { border?: boolean }) {
             </ul>
           </div>
         </div>
-        
+
       </div>
-      
-      
+
+
 
       {/* Big text */}
       <div className="relative -mt-16 h-60 w-full" aria-hidden="true">

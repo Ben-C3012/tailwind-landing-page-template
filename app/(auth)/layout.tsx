@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import Logo from "@/components/ui/logo";
 import AuthBg from "@/public/images/auth-bg.svg";
-import Logo2 from '@/public/images/CyberDream.png';
+import BlackCyberDreamLogo from '@/public/images/BlackCyberDreamLogo.png';
 
 export default function AuthLayout({
   children,
@@ -14,9 +15,11 @@ export default function AuthLayout({
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="flex h-16 items-center justify-between md:h-20">
             {/* Site branding */}
-            <div className="mr-4 shrink-0">
-              <Logo />
-              {/* <Image src={Logo2} alt="CyberDream" /> */}
+            <div className="shrink-0 ">
+
+              <Link href="/">
+                <Image width={300} height={300} src={BlackCyberDreamLogo} alt="CyberDream" />
+              </Link>
             </div>
           </div>
         </div>
