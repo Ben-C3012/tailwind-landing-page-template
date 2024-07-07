@@ -208,7 +208,7 @@ export default function BusinessCategories() {
                         width={24}
                         height={24}
                         alt="Logo 02"
-                      />
+                        />
                     </div>
                   </div>
                 </div>
