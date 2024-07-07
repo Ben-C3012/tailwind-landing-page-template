@@ -9,7 +9,8 @@ import Logo07 from "@/public/images/logo-07.svg";
 import Logo08 from "@/public/images/logo-08.svg";
 import Logo09 from "@/public/images/logo-09.svg";
 
-import torLogo from '@/public/images/torlogo.svg';
+import torLogo from '@/public/images/torLogo.svg';
+
 import duckDuckGoLogo from '@/public/images/duckduckgo-icon.svg';
 import windowsDefenderLogo from '@/public/images/Windows-Defender-logo.svg';
 import facebookLogo from '@/public/images/Facebook-logo.svg';
