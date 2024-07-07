@@ -180,8 +180,7 @@ export default function FeaturesPlanet() {
                 <span dir="rtl">הדרכות  פיתוח תוכנה לבני נוער</span>
               </h3>
               <p dir="rtl" className="text-[15px] text-gray-400">
-                במקום להוציא עשרות אלפי שקלים על קורסים, תוכלו בקלות להבין האם אתם אוהבים את התחום
-              </p>
+              במקום להוציא סכומים גבוהים על קורסים בתוכנה, תוכלו ללמוד בצורה שמשתלמת עבורכם, בסיכון נמוך.               </p>
             </article>
             <article data-aos="text-drop-down">
               <h3 dir="rtl" className="mb-2 flex items-center space-x-2 font-medium text-gray-200">

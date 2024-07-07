@@ -1,5 +1,6 @@
+'use client'
 import PageIllustration from "@/components/page-illustration";
-
+import { Typewriter } from 'react-simple-typewriter'
 
 export default function HeroHome() {
   return (
@@ -24,14 +25,20 @@ export default function HeroHome() {
             >
               הדרכות אבטחת מידע ופיתוח
             </h1>
-            <h1
+            {/* <h1
               dir="rtl"
               className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl"
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
               לדור הבא
+            </h1> */}
+            <h1  dir="rtl" className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl"
+            >
+              <Typewriter loop cursor  words={[ 'לארגונים ','לחברות ', 'למוסדות חינוך']} />
             </h1>
+
+
             <div className="mx-auto max-w-3xl">
               <p
                 dir="rtl"
