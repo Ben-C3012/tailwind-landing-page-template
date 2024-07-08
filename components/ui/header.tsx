@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "./logo";
-import CyberDreamLogo from '@/public/images/CyberDreamLogo.png';
 import BlackCyberDreamLogo from '@/public/images/BlackCyberDreamLogo.png';
 
 
@@ -32,7 +31,7 @@ export default function Header() {
           <div className="flex flex-2  items-center justify-start mb-5 w-max  ">
             {/* <Logo /> */}
             {/* <Image src={CyberDreamLogo} alt="CyberDream" /> */}
-            <div className="mr-20 ">
+            <div className="mr-20 mt-3 md:mt-0 ">
               <Link href="/">
             <Image  width={300} height={300} src={BlackCyberDreamLogo} alt="CyberDream" />
               </Link>

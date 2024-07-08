@@ -33,9 +33,9 @@ export default function HeroHome() {
             >
               לדור הבא
             </h1> */}
-            <h1  dir="rtl" className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl"
+            <h1  dir="rtl" className="mb-6 border-y text-5xl sm:text-6xl md:text-7xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl"
             >
-              <Typewriter loop cursor  words={[ 'לארגונים ','לחברות ', 'למוסדות חינוך']} />
+              <Typewriter deleteSpeed={70} loop cursor  words={[ 'לארגונים ','לחברות ', 'למוסדות חינוך']} />
             </h1>
 
 
@@ -56,7 +56,7 @@ export default function HeroHome() {
                 >
 
                   <a
-                    className="mr-3 btn w-full bg-white text-gray-800 shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
+                    className="mr-6 btn w-full bg-white text-gray-800 shadow hover:bg-gray-50 sm:ml-4  sm:w-auto "
                     href="#features-planet"
                   >
                     קראו עוד
@@ -64,7 +64,7 @@ export default function HeroHome() {
 
 
                   <a
-                    className="btn group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
+                    className="mt-3 sm:mt-0 md:mt-0 btn group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
                     href="/contact">
                     <span dir="rtl" className="relative inline-flex items-center">
                       להזמנת הדרכה{" "}
