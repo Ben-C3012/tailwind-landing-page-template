@@ -6,7 +6,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel="icon" href= '' />
+        <meta name="description" content="הדרכות אבטחת מידע ופיתוח לחברות, ארגונים ומוסדות חינוך"/>
         </Head>
         <body>
           <Main />

@@ -3,6 +3,7 @@
 
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import Head from 'next/head';
 
 export default function SignIn() {
   const [state, handleSubmit] = useForm("mlezwqpj");
@@ -15,6 +16,11 @@ export default function SignIn() {
   }
   return (
     <>
+        <Head>
+        <title>צרו קשר</title>
+        <meta name="description" content="צרו קשר" />
+        </Head>
+
       <div className="mb-10">
         <h1 dir="rtl" className="text-4xl font-bold">צרו קשר</h1>
       </div>

@@ -1,6 +1,6 @@
 export const metadata = {
   title: "CyberDream",
-  description: "Page description",
+  description: "הדרכות אבטחת מידע ופיתוח לארגונים , חברות, ומוסדות חינוך",
 };
 
 import Hero from "@/components/hero-home";
