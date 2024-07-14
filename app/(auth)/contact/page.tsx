@@ -25,7 +25,7 @@ export default function SignIn() {
         <meta property="og:title" content="צור קשר" />
         <meta property="og:description" content="צרו איתנו קשר וקבעו הרצאה" />
         <meta property="og:image" content= {logoForSocialURL} />
-        <meta property="og:url" content="http://localhost:3000/contact" />
+        <meta property="og:url" content="https://www.cyberdreamedu.com/contact" />
         <meta property="og:type" content="website" />
       </Head>
 
