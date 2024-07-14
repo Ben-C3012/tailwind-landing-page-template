@@ -7,6 +7,8 @@ import Head from 'next/head';
 
 export default function SignIn() {
   const [state, handleSubmit] = useForm("mlezwqpj");
+  const logoForSocialURL = '@public/images/logoSocialDimentions.png';
+  
   if (state.succeeded) {
     return (
       <div className="mt-10 text-center text-green-500">
@@ -16,10 +18,16 @@ export default function SignIn() {
   }
   return (
     <>
-        <Head>
+      <Head>
         <title>צרו קשר</title>
         <meta name="description" content="צרו קשר" />
-        </Head>
+
+        <meta property="og:title" content="צור קשר" />
+        <meta property="og:description" content="צרו איתנו קשר וקבעו הרצאה" />
+        <meta property="og:image" content= {logoForSocialURL} />
+        <meta property="og:url" content="http://localhost:3000/contact" />
+        <meta property="og:type" content="website" />
+      </Head>
 
       <div className="mb-10">
         <h1 dir="rtl" className="text-4xl font-bold">צרו קשר</h1>
@@ -61,7 +69,7 @@ export default function SignIn() {
               name="message"
               className='form-input w-full py-2 h-36'
               placeholder="היי!"
-              style={{resize: 'none'}}
+              style={{ resize: 'none' }}
               required
             />
             <ValidationError
